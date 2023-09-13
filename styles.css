@@ -4,15 +4,63 @@
 - Cobalt blue: hsl(234, 85%, 45%) */
 
 .light-red {
-background-color: hsl(0, 100%, 67%);
+background-color: hsl(0, 100%, 67%, 0.2);
 }
 .orangey-yellow {
-background: hsl(39, 100%, 56%);
+background: hsl(39, 100%, 56%, 0.2);
 }
 
 .green-teal {
-background: hsl(166, 100%, 37%);
+background: hsl(166, 100%, 37%, 0.2);
 }
 .cobalt-blue {
-background: hsl(234, 85%, 45%);
+background: hsl(234, 85%, 45%, 0.2);
+}
+
+
+.light-red-font {
+color: hsl(0, 100%, 67%);
+}
+.orangey-yellow-font {
+color: hsl(39, 100%, 56%);
+font-weight: bold;
+}
+
+.green-teal-font {
+color: hsl(166, 100%, 37%);
+}
+.cobalt-blue-font {
+color: hsl(234, 85%, 45%);
+}
+
+
+
+
+.color1, .light-slate-blue {
+    background: hsl(252, 100%, 67%);
+}
+
+.color2, .light-royal-blue {
+    background-color: hsl(241, 81%, 54%);
+    
+}
+
+.color3, .violet-blue {
+    background-color: hsla(256, 72%, 46%, 1);
+}
+
+.color4, .persian-blue {
+    background-color: hsla(241, 72%, 46%, 0);
+}
+
+.left-card {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.font18 {
+    font-size: 18px;
+}
+
+.left-corner {
+    border-radius: 12px;
 }
