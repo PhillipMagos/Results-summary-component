@@ -55,6 +55,11 @@ color: hsl(234, 85%, 45%);
 
 .left-card {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 550px;
+}
+
+.right-card {
+    height: 550px;
 }
 
 .font18 {
@@ -68,3 +73,46 @@ color: hsl(234, 85%, 45%);
 .custom-width {
     width: 720px;
 }
+
+.desktop-width {
+    width: 1440px;
+}
+
+.desktop-height {
+    height: 550px;
+}
+
+
+
+
+
+
+
+
+/* CSS */
+.button-71 {
+    margin-top: 50px;
+  background-color: hsl(224, 30%, 27%);
+  border: 0;
+  border-radius: 56px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+
+
+
