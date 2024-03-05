@@ -83,9 +83,22 @@ color: hsl(234, 85%, 45%);
 }
 
 
+.stupid-circle {
+    display: flex;
+    margin-left: 25%;
+    
+}
 
+.stupid-circle-text {
+    margin-left: 40%;
+    margin-bottom: 60%;
+    margin-top: 30%;
+    /* border: purple 10px solid; */
+}
 
-
+.stupid-circle-text2 {
+    font-weight: 300;
+}
 
 
 
