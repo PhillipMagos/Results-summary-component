@@ -17,6 +17,11 @@ background: hsl(166, 100%, 37%, 0.2);
 background: hsl(234, 85%, 45%, 0.2);
 }
 
+.rmvv {
+    margin-top: 15px;
+    height: 60px; 
+}
+
 
 .light-red-font {
 color: hsl(0, 100%, 67%);
@@ -82,6 +87,11 @@ color: hsl(234, 85%, 45%);
     height: 550px;
 }
 
+.box-card {
+    margin-top: 15em;
+    max-width: 950px;
+}
+
 
 .stupid-circle {
     display: flex;
@@ -90,21 +100,23 @@ color: hsl(234, 85%, 45%);
 }
 
 .stupid-circle-text {
-    margin-left: 40%;
+    margin-left: 30%;
     margin-bottom: 60%;
-    margin-top: 30%;
+    margin-top: 40%;
+    font-size: 40px;
     /* border: purple 10px solid; */
 }
 
 .stupid-circle-text2 {
     font-weight: 300;
+    /* font-size: ; */
 }
 
 
 
 /* CSS */
 .button-71 {
-    margin-top: 50px;
+  /* margin-top: 90px; */
   background-color: hsl(224, 30%, 27%);
   border: 0;
   border-radius: 56px;
@@ -123,6 +135,10 @@ color: hsl(234, 85%, 45%);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
 }
 
 
